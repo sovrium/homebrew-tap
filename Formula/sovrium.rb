@@ -1,5 +1,5 @@
 # Homebrew formula for Sovrium
-# Auto-updated by scripts/update-homebrew-formula.ts
+# Auto-updated by scripts/build/update-homebrew-formula.ts
 #
 # Install: brew install sovrium/tap/sovrium
 # Upgrade: brew upgrade sovrium/tap/sovrium
@@ -7,28 +7,28 @@
 class Sovrium < Formula
   desc "Configuration-driven web application platform"
   homepage "https://sovrium.com"
-  version "0.5.3"
+  version "0.6.2"
   license "BUSL-1.1"
 
   on_macos do
     on_intel do
-      url "https://github.com/sovrium/sovrium/releases/download/v0.5.3/sovrium-0.5.3-darwin-x64.tar.gz"
-      sha256 "1512d923f376c9887e587596e56bbffe974b8c9d5952c8263106eab06260d39a"
+      url "https://github.com/sovrium/sovrium/releases/download/v0.6.2/sovrium-0.6.2-darwin-x64.tar.gz"
+      sha256 "e2c01b9bf5c7656e4c442ace9212dba6a5ba43cd284ff9cda4cfc6a2b157e898"
     end
     on_arm do
-      url "https://github.com/sovrium/sovrium/releases/download/v0.5.3/sovrium-0.5.3-darwin-arm64.tar.gz"
-      sha256 "8834c6ed376e7f20b1df06bf684b4b88cb6f30fb6c02023b1fa4cc01df51913f"
+      url "https://github.com/sovrium/sovrium/releases/download/v0.6.2/sovrium-0.6.2-darwin-arm64.tar.gz"
+      sha256 "0fc29bee8753edb0986d601a27adf645c35888e0f6d7ba03d4b0d7ea859cd7ab"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/sovrium/sovrium/releases/download/v0.5.3/sovrium-0.5.3-linux-x64.tar.gz"
-      sha256 "b64d22a2701330af67b3018ab3d08f5ab0481f112cb19fd745e0c75def41c28d"
+      url "https://github.com/sovrium/sovrium/releases/download/v0.6.2/sovrium-0.6.2-linux-x64.tar.gz"
+      sha256 "c2f3d4e6f470238f9dfa9a300a2f3853409c7c62b456b9f8a9ed2d5c354b2033"
     end
     on_arm do
-      url "https://github.com/sovrium/sovrium/releases/download/v0.5.3/sovrium-0.5.3-linux-arm64.tar.gz"
-      sha256 "600dcf9bfc573c9914f407900291c4ea9f04f620117e9d8159724be1f5785b18"
+      url "https://github.com/sovrium/sovrium/releases/download/v0.6.2/sovrium-0.6.2-linux-arm64.tar.gz"
+      sha256 "08fc78294aeae34d0b717f8d721d89c9724fddc0979755e1523790eb96064fca"
     end
   end
 
