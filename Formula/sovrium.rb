@@ -7,28 +7,28 @@
 class Sovrium < Formula
   desc "Configuration-driven web application platform"
   homepage "https://sovrium.com"
-  version "0.42.0"
+  version "0.43.0"
   license "BUSL-1.1"
 
   on_macos do
     on_intel do
-      url "https://github.com/sovrium/sovrium/releases/download/v0.42.0/sovrium-0.42.0-darwin-x64.tar.gz"
-      sha256 "d098717c0fb65422c4f012949819618329f01d9196a84c06f1621ba3d8892ca0"
+      url "https://github.com/sovrium/sovrium/releases/download/v0.43.0/sovrium-0.43.0-darwin-x64.tar.gz"
+      sha256 "f4b43c2a4d6cb8acdd0993ee9b41041acbecec4b5dc3810ce9169a0af5402712"
     end
     on_arm do
-      url "https://github.com/sovrium/sovrium/releases/download/v0.42.0/sovrium-0.42.0-darwin-arm64.tar.gz"
-      sha256 "dc29047784a9a44a017b199f3a88a000377b46649c59df09bc91b9026c4fe9cd"
+      url "https://github.com/sovrium/sovrium/releases/download/v0.43.0/sovrium-0.43.0-darwin-arm64.tar.gz"
+      sha256 "8cef29ef76493f935bda5cac160df0983bb80347a0aa4298f082b4f577e7a0cb"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/sovrium/sovrium/releases/download/v0.42.0/sovrium-0.42.0-linux-x64.tar.gz"
-      sha256 "d913fb0cb27bf1689f69669b025de13c08316d89d46155af5d522b5b3eaa7094"
+      url "https://github.com/sovrium/sovrium/releases/download/v0.43.0/sovrium-0.43.0-linux-x64.tar.gz"
+      sha256 "6cb6d567e7741ef91c758a68cd4554b83aa6b576342231a5ae42ab5140a8b478"
     end
     on_arm do
-      url "https://github.com/sovrium/sovrium/releases/download/v0.42.0/sovrium-0.42.0-linux-arm64.tar.gz"
-      sha256 "953dcf903cf7e3d2f54d2d53ec924475216743e1ba13e246cec36709c6ecefec"
+      url "https://github.com/sovrium/sovrium/releases/download/v0.43.0/sovrium-0.43.0-linux-arm64.tar.gz"
+      sha256 "19bde014aa55658444988dfb98227bf206da95c57fe0887f7b20f115a1c7d6af"
     end
   end
 
